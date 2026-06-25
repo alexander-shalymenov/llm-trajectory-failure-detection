@@ -2,7 +2,7 @@
 
 This repository contains an exploratory research prototype for studying whether internal generation trajectories in causal language models can provide additional diagnostic signals for generation quality. The project compares trajectory behaviour across GPT-2, DistilGPT2, and TinyLlama on a small controlled prompt set, with particular attention to abnormal path behaviour, repetition-like outputs, and empty generation.
 
-[Open trajectory monitor]([results/trajectory_monitor.html](https://alexander-shalymenov.github.io/llm-trajectory-failure-detection/results/trajectory_monitor.html))
+[Open trajectory monitor](https://alexander-shalymenov.github.io/llm-trajectory-failure-detection/results/trajectory_monitor.html)
 
 ## Motivation
 
