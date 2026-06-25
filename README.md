@@ -2,6 +2,8 @@
 
 This repository contains an exploratory research prototype for studying whether internal generation trajectories in causal language models can provide additional diagnostic signals for generation quality. The project compares trajectory behaviour across GPT-2, DistilGPT2, and TinyLlama on a small controlled prompt set, with particular attention to abnormal path behaviour, repetition-like outputs, and empty generation.
 
+[Open trajectory monitor](results/trajectory_monitor.html)
+
 ## Motivation
 
 Language-model outputs can fail in ways that are not fully captured by surface text alone. A response may be repetitive, empty, unstable, or produced through unusual internal dynamics. This project investigates whether measurements taken from hidden-state trajectories during generation can help surface such cases for review.
