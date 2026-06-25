@@ -1,0 +1,5 @@
+run,failure_label,count,mean_risk_failed,mean_risk_non_failed,review_or_unstable_failed,review_or_unstable_non_failed
+original,empty_generation,108,0.12009244721160446,0.23581905713518733,13.0%,51.6%
+original,repetition_like,107,0.2844327649719955,0.1658580270550078,63.6%,30.0%
+confirmation,empty_generation,108,0.12009244721160446,0.23581905713518733,13.0%,51.6%
+confirmation,repetition_like,107,0.2844327649719955,0.1658580270550078,63.6%,30.0%

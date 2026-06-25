@@ -1,0 +1,858 @@
+[
+  {
+    "id": "facts_001",
+    "category": "simple_facts",
+    "prompt": "What is the capital city of France?",
+    "expected_answer": "Paris",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_002",
+    "category": "simple_facts",
+    "prompt": "Who wrote the play Romeo and Juliet?",
+    "expected_answer": "Shakespeare",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_003",
+    "category": "simple_facts",
+    "prompt": "What planet is known as the Red Planet?",
+    "expected_answer": "Mars",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_004",
+    "category": "simple_facts",
+    "prompt": "What gas do plants absorb from the atmosphere during photosynthesis?",
+    "expected_answer": "carbon dioxide",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_005",
+    "category": "simple_facts",
+    "prompt": "What is the largest ocean on Earth?",
+    "expected_answer": "Pacific",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_006",
+    "category": "simple_facts",
+    "prompt": "Who painted the Mona Lisa?",
+    "expected_answer": "Leonardo da Vinci",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_007",
+    "category": "simple_facts",
+    "prompt": "What is the chemical symbol for gold?",
+    "expected_answer": "Au",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_008",
+    "category": "simple_facts",
+    "prompt": "How many continents are commonly recognized on Earth?",
+    "expected_answer": "7",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_009",
+    "category": "simple_facts",
+    "prompt": "What is the tallest mountain above sea level?",
+    "expected_answer": "Everest",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_010",
+    "category": "simple_facts",
+    "prompt": "Which country is famous for the ancient city of Machu Picchu?",
+    "expected_answer": "Peru",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_011",
+    "category": "simple_facts",
+    "prompt": "What instrument is used to measure temperature?",
+    "expected_answer": "thermometer",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_012",
+    "category": "simple_facts",
+    "prompt": "Who was the first person to walk on the Moon?",
+    "expected_answer": "Neil Armstrong",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_013",
+    "category": "simple_facts",
+    "prompt": "What is the boiling point of water at sea level in Celsius?",
+    "expected_answer": [
+      "100",
+      "100 degrees Celsius"
+    ],
+    "evaluation_type": "multiple_acceptable"
+  },
+  {
+    "id": "facts_014",
+    "category": "simple_facts",
+    "prompt": "Which organ pumps blood through the human body?",
+    "expected_answer": "heart",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_015",
+    "category": "simple_facts",
+    "prompt": "What language is primarily spoken in Brazil?",
+    "expected_answer": "Portuguese",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_016",
+    "category": "simple_facts",
+    "prompt": "What is the largest mammal?",
+    "expected_answer": "blue whale",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_017",
+    "category": "simple_facts",
+    "prompt": "Which metal is liquid at room temperature?",
+    "expected_answer": "mercury",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_018",
+    "category": "simple_facts",
+    "prompt": "What is the main ingredient in traditional bread?",
+    "expected_answer": "flour",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_019",
+    "category": "simple_facts",
+    "prompt": "Which city is known as the Big Apple?",
+    "expected_answer": "New York",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "facts_020",
+    "category": "simple_facts",
+    "prompt": "What is the freezing point of water in Celsius?",
+    "expected_answer": [
+      "0",
+      "zero"
+    ],
+    "evaluation_type": "multiple_acceptable"
+  },
+  {
+    "id": "arithmetic_001",
+    "category": "arithmetic",
+    "prompt": "What is 17 plus 28?",
+    "expected_answer": "45",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_002",
+    "category": "arithmetic",
+    "prompt": "If you have 12 apples and give away 5, how many apples remain?",
+    "expected_answer": "7",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_003",
+    "category": "arithmetic",
+    "prompt": "What is 9 multiplied by 7?",
+    "expected_answer": "63",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_004",
+    "category": "arithmetic",
+    "prompt": "What is 144 divided by 12?",
+    "expected_answer": "12",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_005",
+    "category": "arithmetic",
+    "prompt": "What is 35 minus 18?",
+    "expected_answer": "17",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_006",
+    "category": "arithmetic",
+    "prompt": "What is 6 squared?",
+    "expected_answer": "36",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_007",
+    "category": "arithmetic",
+    "prompt": "If a book costs 8 dollars and you buy 4 books, what is the total cost?",
+    "expected_answer": "32",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_008",
+    "category": "arithmetic",
+    "prompt": "What is 15 percent of 200?",
+    "expected_answer": "30",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_009",
+    "category": "arithmetic",
+    "prompt": "What is 3 plus 4 plus 5?",
+    "expected_answer": "12",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_010",
+    "category": "arithmetic",
+    "prompt": "What is 81 divided by 9?",
+    "expected_answer": "9",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_011",
+    "category": "arithmetic",
+    "prompt": "If a train travels 60 miles each hour for 3 hours, how far does it travel?",
+    "expected_answer": "180",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_012",
+    "category": "arithmetic",
+    "prompt": "What is 11 times 11?",
+    "expected_answer": "121",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_013",
+    "category": "arithmetic",
+    "prompt": "What is 100 minus 37?",
+    "expected_answer": "63",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_014",
+    "category": "arithmetic",
+    "prompt": "What is half of 86?",
+    "expected_answer": "43",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_015",
+    "category": "arithmetic",
+    "prompt": "If there are 5 boxes with 6 pencils each, how many pencils are there?",
+    "expected_answer": "30",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_016",
+    "category": "arithmetic",
+    "prompt": "What is 24 plus 19?",
+    "expected_answer": "43",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_017",
+    "category": "arithmetic",
+    "prompt": "What is 13 multiplied by 4?",
+    "expected_answer": "52",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_018",
+    "category": "arithmetic",
+    "prompt": "What is 90 divided by 5?",
+    "expected_answer": "18",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_019",
+    "category": "arithmetic",
+    "prompt": "If you split 45 candies among 9 people equally, how many candies does each person get?",
+    "expected_answer": "5",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "arithmetic_020",
+    "category": "arithmetic",
+    "prompt": "What is 2 to the power of 5?",
+    "expected_answer": "32",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "logic_001",
+    "category": "logic",
+    "prompt": "All roses are flowers. Some flowers fade quickly. Does it follow that all roses fade quickly?",
+    "expected_answer": "no",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_002",
+    "category": "logic",
+    "prompt": "If every blicket is a dax and every dax is a wug, is every blicket a wug?",
+    "expected_answer": "yes",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_003",
+    "category": "logic",
+    "prompt": "If all squares are rectangles, and this shape is a square, is it a rectangle?",
+    "expected_answer": "yes",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_004",
+    "category": "logic",
+    "prompt": "If no cats are reptiles and Luna is a cat, can Luna be a reptile?",
+    "expected_answer": "no",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_005",
+    "category": "logic",
+    "prompt": "If some writers are teachers and all teachers read books, must some writers read books?",
+    "expected_answer": "yes",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_006",
+    "category": "logic",
+    "prompt": "If the alarm rings only when the door opens, and the alarm rang, what can you infer?",
+    "expected_answer": "the door opened",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "logic_007",
+    "category": "logic",
+    "prompt": "If it rains, the ground gets wet. The ground is wet. Does that prove it rained?",
+    "expected_answer": "no",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_008",
+    "category": "logic",
+    "prompt": "If A is taller than B and B is taller than C, who is taller, A or C?",
+    "expected_answer": "A",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "logic_009",
+    "category": "logic",
+    "prompt": "Either the lamp is on or the room is dark. The lamp is not on. What follows?",
+    "expected_answer": "the room is dark",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "logic_010",
+    "category": "logic",
+    "prompt": "If every metal conducts heat and copper is a metal, does copper conduct heat?",
+    "expected_answer": "yes",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_011",
+    "category": "logic",
+    "prompt": "No birds in this puzzle can swim. A loon can swim. Is the loon one of the birds in this puzzle?",
+    "expected_answer": "no",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_012",
+    "category": "logic",
+    "prompt": "If a card is red, then it is not blue. This card is blue. Can it be red?",
+    "expected_answer": "no",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_013",
+    "category": "logic",
+    "prompt": "If all planets orbit stars and Mars is a planet, does Mars orbit a star?",
+    "expected_answer": "yes",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_014",
+    "category": "logic",
+    "prompt": "Some artists are musicians. Some musicians are teachers. Must some artists be teachers?",
+    "expected_answer": "no",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_015",
+    "category": "logic",
+    "prompt": "If a password is valid only when it has eight characters, and this password has six, is it valid?",
+    "expected_answer": "no",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_016",
+    "category": "logic",
+    "prompt": "If all members paid dues and Jordan is a member, did Jordan pay dues?",
+    "expected_answer": "yes",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_017",
+    "category": "logic",
+    "prompt": "If no triangles have four sides, can a four-sided figure be a triangle?",
+    "expected_answer": "no",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_018",
+    "category": "logic",
+    "prompt": "If the switch controls the fan and the switch is off, must the fan be off?",
+    "expected_answer": "no",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_019",
+    "category": "logic",
+    "prompt": "If every prime above 2 is odd, and 13 is prime, is 13 odd?",
+    "expected_answer": "yes",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "logic_020",
+    "category": "logic",
+    "prompt": "If all tickets with a star win a prize, and Maya's ticket has a star, did Maya win a prize?",
+    "expected_answer": "yes",
+    "evaluation_type": "yes_no"
+  },
+  {
+    "id": "explanations_001",
+    "category": "explanations",
+    "prompt": "Explain why the sky often appears blue during the day.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_002",
+    "category": "explanations",
+    "prompt": "Explain why plants need sunlight.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_003",
+    "category": "explanations",
+    "prompt": "Explain why ice floats on liquid water.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_004",
+    "category": "explanations",
+    "prompt": "Explain why exercise can improve cardiovascular health.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_005",
+    "category": "explanations",
+    "prompt": "Explain why seasons occur on Earth.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_006",
+    "category": "explanations",
+    "prompt": "Explain why metal often feels colder than wood at the same temperature.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_007",
+    "category": "explanations",
+    "prompt": "Explain why sleep is important for memory.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_008",
+    "category": "explanations",
+    "prompt": "Explain why rainbows appear after sunlight passes through raindrops.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_009",
+    "category": "explanations",
+    "prompt": "Explain why food spoils faster at warm temperatures.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_010",
+    "category": "explanations",
+    "prompt": "Explain why vaccination can protect a population.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_011",
+    "category": "explanations",
+    "prompt": "Explain why a compass needle points roughly north.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_012",
+    "category": "explanations",
+    "prompt": "Explain why salt lowers the freezing point of water.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_013",
+    "category": "explanations",
+    "prompt": "Explain why soap helps remove grease.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_014",
+    "category": "explanations",
+    "prompt": "Explain why a bicycle stays easier to balance when moving.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_015",
+    "category": "explanations",
+    "prompt": "Explain why supply and demand can affect prices.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_016",
+    "category": "explanations",
+    "prompt": "Explain why stars appear to twinkle from Earth.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_017",
+    "category": "explanations",
+    "prompt": "Explain why people see lightning before hearing thunder.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_018",
+    "category": "explanations",
+    "prompt": "Explain why bridges often have expansion joints.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_019",
+    "category": "explanations",
+    "prompt": "Explain why a heavier object does not necessarily fall faster in a vacuum.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "explanations_020",
+    "category": "explanations",
+    "prompt": "Explain why passwords should be hard to guess.",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_001",
+    "category": "abstract_questions",
+    "prompt": "What makes an idea elegant?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_002",
+    "category": "abstract_questions",
+    "prompt": "Can a pattern exist before anyone notices it?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_003",
+    "category": "abstract_questions",
+    "prompt": "What does it mean for a question to be deep?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_004",
+    "category": "abstract_questions",
+    "prompt": "Is simplicity always a virtue in explanation?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_005",
+    "category": "abstract_questions",
+    "prompt": "How can uncertainty be useful?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_006",
+    "category": "abstract_questions",
+    "prompt": "What makes a boundary meaningful?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_007",
+    "category": "abstract_questions",
+    "prompt": "Can a system understand itself completely?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_008",
+    "category": "abstract_questions",
+    "prompt": "What is the difference between knowledge and belief?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_009",
+    "category": "abstract_questions",
+    "prompt": "When does complexity become noise?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_010",
+    "category": "abstract_questions",
+    "prompt": "Can beauty be a form of evidence?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_011",
+    "category": "abstract_questions",
+    "prompt": "What makes a model trustworthy?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_012",
+    "category": "abstract_questions",
+    "prompt": "Is a map ever more useful than the territory?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_013",
+    "category": "abstract_questions",
+    "prompt": "How does context change meaning?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_014",
+    "category": "abstract_questions",
+    "prompt": "Can a contradiction reveal something true?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_015",
+    "category": "abstract_questions",
+    "prompt": "What makes a memory feel real?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_016",
+    "category": "abstract_questions",
+    "prompt": "Is progress always measurable?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_017",
+    "category": "abstract_questions",
+    "prompt": "What does it mean to explain a feeling?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_018",
+    "category": "abstract_questions",
+    "prompt": "Can absence carry information?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_019",
+    "category": "abstract_questions",
+    "prompt": "When is an approximation better than precision?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "abstract_020",
+    "category": "abstract_questions",
+    "prompt": "What makes a choice rational?",
+    "expected_answer": null,
+    "evaluation_type": null
+  },
+  {
+    "id": "trick_001",
+    "category": "trick_questions",
+    "prompt": "A farmer has 10 sheep and all but 7 run away. How many sheep are left?",
+    "expected_answer": "7",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_002",
+    "category": "trick_questions",
+    "prompt": "What word is spelled incorrectly in every dictionary?",
+    "expected_answer": "incorrectly",
+    "evaluation_type": "exact"
+  },
+  {
+    "id": "trick_003",
+    "category": "trick_questions",
+    "prompt": "If a plane crashes on the border between Canada and the United States, where do they bury the survivors?",
+    "expected_answer": "survivors",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_004",
+    "category": "trick_questions",
+    "prompt": "How many months have 28 days?",
+    "expected_answer": [
+      "12",
+      "all"
+    ],
+    "evaluation_type": "multiple_acceptable"
+  },
+  {
+    "id": "trick_005",
+    "category": "trick_questions",
+    "prompt": "Before Mount Everest was discovered, what was the tallest mountain in the world?",
+    "expected_answer": "Mount Everest",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_006",
+    "category": "trick_questions",
+    "prompt": "What gets wetter the more it dries?",
+    "expected_answer": "towel",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_007",
+    "category": "trick_questions",
+    "prompt": "A doctor gives you three pills and tells you to take one every half hour. How long will the pills last?",
+    "expected_answer": [
+      "one hour",
+      "1 hour",
+      "60 minutes"
+    ],
+    "evaluation_type": "multiple_acceptable"
+  },
+  {
+    "id": "trick_008",
+    "category": "trick_questions",
+    "prompt": "If you drop a yellow hat into the Red Sea, what does it become?",
+    "expected_answer": "wet",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_009",
+    "category": "trick_questions",
+    "prompt": "What has a head, a tail, is brown, and has no legs?",
+    "expected_answer": "penny",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_010",
+    "category": "trick_questions",
+    "prompt": "What can travel around the world while staying in a corner?",
+    "expected_answer": "stamp",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_011",
+    "category": "trick_questions",
+    "prompt": "If there are three apples and you take away two, how many apples do you have?",
+    "expected_answer": "2",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_012",
+    "category": "trick_questions",
+    "prompt": "What has many keys but cannot open a lock?",
+    "expected_answer": "piano",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_013",
+    "category": "trick_questions",
+    "prompt": "What has hands but cannot clap?",
+    "expected_answer": "clock",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_014",
+    "category": "trick_questions",
+    "prompt": "What can you catch but not throw?",
+    "expected_answer": "cold",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_015",
+    "category": "trick_questions",
+    "prompt": "What begins with T, ends with T, and has T in it?",
+    "expected_answer": "teapot",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_016",
+    "category": "trick_questions",
+    "prompt": "What has one eye but cannot see?",
+    "expected_answer": "needle",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_017",
+    "category": "trick_questions",
+    "prompt": "What has a neck but no head?",
+    "expected_answer": "bottle",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_018",
+    "category": "trick_questions",
+    "prompt": "If two is company and three is a crowd, what are four and five?",
+    "expected_answer": "9",
+    "evaluation_type": "contains"
+  },
+  {
+    "id": "trick_019",
+    "category": "trick_questions",
+    "prompt": "What question can you never answer yes to truthfully?",
+    "expected_answer": [
+      "are you asleep",
+      "are you dead"
+    ],
+    "evaluation_type": "multiple_acceptable"
+  },
+  {
+    "id": "trick_020",
+    "category": "trick_questions",
+    "prompt": "What is always coming but never arrives?",
+    "expected_answer": "tomorrow",
+    "evaluation_type": "contains"
+  }
+]
